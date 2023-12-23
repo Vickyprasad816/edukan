@@ -1,0 +1,153 @@
+.container {
+    width: 1510px;
+    height: 680px;
+    border: 5px solid darkblue;
+    border-radius: 8px;
+    position: fixed;
+}
+
+.firstbox {
+    width: 482px;
+    height: 695px;
+    float: left;
+}
+
+.network {
+    margin-left: 130px;
+    margin-top: 60px;
+    width: 180px;
+    height: 45px;
+}
+
+.logac {
+    color: #555;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 45px;
+}
+
+.element {
+    font-size: 14px;
+    font-family: poppins;
+    font-weight: 300;
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+}
+
+.input {
+    padding-left: 10px;
+    font-size: 14px;
+    border: none;
+    font-family: poppins;
+    margin: 5px;
+    width: 429.134px;
+    height: 50.486px;
+    flex-shrink: 0;
+    border-radius: 8.078px;
+    background: #F1F3F6;
+    margin-bottom: 15px;
+    
+    
+}
+.email{
+    margin-left: -57px;
+    margin-bottom: -21px;
+}
+.password{
+    margin-left: -57px;
+    margin-bottom: -21px;
+}
+
+.forget {
+    cursor: pointer;
+    margin-left: 307px;
+    border: none;
+    background-color: white;
+    font-family: poppins;
+    color:  #1E2772;
+    border-bottom: 1px solid  #1E2772;
+    font-size: 14px;
+}
+.splint{
+    margin-left: -38px;
+    margin-bottom: -10px;
+}
+.loginbtn{
+    border: none;
+    background-color:  #FD7401;
+    font-family: poppins;
+    margin: 35px;
+    width: 89%;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
+.or{
+    color: #C2C2C2;
+    /* margin-top: -110px; */
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 14px;
+}
+.line1{
+    border-radius: 8px;
+    border: 1px solid #C2C2C2;
+    width: 40%;
+    float: left;
+    margin-left: 35px;
+    margin-right: 11px;
+}
+.line2{
+    border-radius: 8px;
+    border: 1px solid  #C2C2C2;
+    width: 40%;
+    margin-left: 270px;
+    margin-top: -28px;
+}
+.signupbtn{
+    cursor: pointer;
+    border: 1px solid orange;
+    background-color:  white;
+    font-family: poppins;
+    margin: 35px;
+    width: 89%;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: 500;
+    color: orange;
+}
+
+
+.secondbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    background-color: #F1F3F6;
+    width: 1000px;
+    height: 680px;
+    /* margin-top: -700px; */
+    /* height: 695px; */
+}
+
+
+.moblogin {
+    
+    width: 500px;
+    height: 500px;
+}
+.error{
+    font-family: poppins;
+    color: red;
+    margin-left: 11vw;
+    
+}
